@@ -6,7 +6,7 @@
 
 void operacoes_avl(){
     avl *arv;
-    int i, j, elem, qtd = 10000, rot_ins, rot_rem, num_testes = 10;
+    int i, j, elem, qtd = 100000, rot_ins, rot_rem, num_testes = 100;
     double t_total_ins = 0, t_total_rem = 0, t_total_busca = 0, t_medio_ins, t_medio_rem, t_medio_busca;
     clock_t t_ini_ins, t_fim_ins, t_ini_rem, t_fim_rem, t_ini_busca, t_fim_busca;
 
@@ -25,7 +25,7 @@ void operacoes_avl(){
         arv->rotacoes = 0;
         // BUSCA
         t_ini_busca = clock();
-        for (j = 0; j < 1000; j++) {
+        for (j = 0; j < 10000; j++) {
             elem = 1 + (rand() % qtd);
             encontraNo(arv, elem);
         }
@@ -47,11 +47,11 @@ void operacoes_avl(){
     }
 
     printf("\nRESULTADOS AVL");
-    printf("\na) Insercao de 10.000 valores ordenados\n\tTempo medio: %.2f ms\n", t_medio_ins);
+    printf("\na) Insercao de 100.000 valores ordenados\n\tTempo medio: %.2f ms\n", t_medio_ins);
     printf("\tQuantidade de rotacoes: %d\n", rot_ins);
-    printf("\nb) Remocao de 10.000 valores ordenados\n\tTempo medio: %.2f ms\n", t_medio_rem);
+    printf("\nb) Remocao de 100.000 valores ordenados\n\tTempo medio: %.2f ms\n", t_medio_rem);
     printf("\tQuantidade de rotacoes: %d\n", rot_rem);
-    printf("\nc) Busca de 1.000 elementos aleatorios \n\tTempo medio: %.2f ms\n", t_medio_busca);
+    printf("\nc) Busca de 10.000 elementos aleatorios \n\tTempo medio: %.2f ms\n", t_medio_busca);
 
     free(arv);
 }
