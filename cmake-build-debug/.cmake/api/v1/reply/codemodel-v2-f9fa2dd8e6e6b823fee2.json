@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Atividade___Comparacao_AVL_e_Rubro_Negra",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Atividade___Comparacao_AVL_e_Rubro_Negra::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Atividade___Comparacao_AVL_e_Rubro_Negra-Debug-379e58da584b25a58b7f.json",
+					"name" : "Atividade___Comparacao_AVL_e_Rubro_Negra",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Fabricius2/Documents/UNIFEI/Semestre 4/Algoritmos e Estruturas de Dados II/Atividades/Atividade - Comparacao AVL e Rubro Negra/cmake-build-debug",
+		"source" : "C:/Users/Fabricius2/Documents/UNIFEI/Semestre 4/Algoritmos e Estruturas de Dados II/Atividades/Atividade - Comparacao AVL e Rubro Negra"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

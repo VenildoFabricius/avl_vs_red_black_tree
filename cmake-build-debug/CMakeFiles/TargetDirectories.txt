@@ -1,0 +1,3 @@
+C:/Users/Fabricius2/Documents/UNIFEI/Semestre 4/Algoritmos e Estruturas de Dados II/Atividades/Atividade - Comparacao AVL e Rubro Negra/cmake-build-debug/CMakeFiles/Atividade___Comparacao_AVL_e_Rubro_Negra.dir
+C:/Users/Fabricius2/Documents/UNIFEI/Semestre 4/Algoritmos e Estruturas de Dados II/Atividades/Atividade - Comparacao AVL e Rubro Negra/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Fabricius2/Documents/UNIFEI/Semestre 4/Algoritmos e Estruturas de Dados II/Atividades/Atividade - Comparacao AVL e Rubro Negra/cmake-build-debug/CMakeFiles/rebuild_cache.dir
